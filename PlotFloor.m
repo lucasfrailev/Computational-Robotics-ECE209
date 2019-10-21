@@ -3,7 +3,7 @@ x=0:len-1;
 y=0:width-1;
 for i = 1:len
     for j=1:width
-        reward=ComputeReward([x(i),y(j),-1],len,width,goal);
+        reward=ComputeReward([x(i),y(j),6],len,width,goal);
         switch reward
             case -100
                 PlotTile(x(i),y(j),'red')
