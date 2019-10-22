@@ -5,3 +5,5 @@
  To run our implementation one needs to download everything in this repository and run Main.m . 
  One can change the length and width of the world but not to less of 4x8 unless one wishes to move the obstacles, to do so one needs to edit ComputeReward.m .
  One can freely change the goal to anywhere in the state space.
+
+This same set of experiments is contained in the Jupyter Notebook titled "LAB 1.ipynb".  These can be run sequentially and contain markdown comments explaining each step.
